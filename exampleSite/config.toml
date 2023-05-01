@@ -96,7 +96,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Life"
     identifier = "life"
-    url        = "/"
+    url        = "/life/"
     weight     = 6
 
 [[menu.main]]
