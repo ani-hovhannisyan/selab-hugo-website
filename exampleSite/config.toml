@@ -1,5 +1,5 @@
 baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Universal"
+title = "Software Engineering Laboratory - NAIST"
 theme = "hugo-universal-theme"
 themesDir = "../.."
 languageCode = "en-us"
@@ -49,35 +49,15 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Publications"
-    identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
+    identifier = "portfolio"
+    url        = "/portfolio/"
     weight     = 3
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.portfolio"
-    post       = 1
-
-[[menu.main]]
-    name       = "2 Columns"
-    url        = ""
-    weight     = 1
-    parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "Research"
     identifier = "menu.faq"
     url        = "/faq/"
     weight     = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
 
 [[menu.main]]
     name       = "Members"
@@ -104,92 +84,6 @@ pluralizelisttitles = false
     identifier = "contact"
     url        = "/contact/"
     weight     = 7
-
-[[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
-    url        = ""
-    weight     = 8
-
-[[menu.main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Access"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
 
 # Top bar social links menu
 
@@ -343,3 +237,10 @@ pluralizelisttitles = false
   category = "categories"
   tag = "tags"
   author = "authors"
+
+[server]
+[[server.headers]]
+  for = "/*"
+    [server.headers.values]
+    Access-Control-Allow-Origin = "*"
+
