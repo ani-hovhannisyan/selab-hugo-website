@@ -205,8 +205,8 @@ pluralizelisttitles = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Graduated Students"
+    subtitle = "Software Engineering Laboratory produced hundreds of students, who successfully continued their career in the industry and in the academic field. Many Doctor students work in Japan and abroad. We look forward to collaborate with more researchers and widen our research areas."
 
 [params.see_more]
     enable = true
