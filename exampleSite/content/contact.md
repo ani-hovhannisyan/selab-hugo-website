@@ -1,6 +1,5 @@
 +++
-title = "Contact"
-id = "contact"
+title = "Access"
 +++
 
 ### **Address & Campus map**

@@ -1,7 +1,7 @@
 +++
 title = "LIFE"
-description = "Frequently asked questions"
-keywords = ["FAQ","How do I","questions","what if"]
+description = "Software Engineering Laboratory daily life activities and events"
+keywords = ["life", "daily activities", "parites", "events"]
 +++
 
 # 研究室の様子
