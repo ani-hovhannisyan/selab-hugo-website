@@ -24,29 +24,26 @@ keywords = ["Software Engineering Laboratory","Research","Software Ecosystem","O
 
 ### 主なトピック
 
-![Bug](img/research/bug.png "Paradigm")
+"Paradigm"
 バグを防ぐ
 
 
 ソフトウェアのバグの予防と修正に取り組んでいます。
 具体的にはソースコードの自動合成や自動バグ修正、構造や機能の可視化による開発者の作業支援を研究しています。
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15adc670-5e65-414a-86ed-5c72221b2dab/brain.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15adc670-5e65-414a-86ed-5c72221b2dab/brain.png" width="40px" /> ****Human
-プログラマの能力・活動を調べる****
+プログラマの能力・活動を調べる
 
 
 ソフトウェア開発時に発生する作業の多くは、開発者が頭の中で行う認知的・心理的プロセスです。
 私たちは視線や脳活動の計測から、開発者がいつものようにソフトウェア開発を行っているかを定量的に明らかにしています。
 さらに、プログラミング教育の効果をソースコードの内容から評価するなど、教育支援環境の開発にも取り組んでいます。
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d058e6d6-5fbc-415d-bdba-f2687dd81a2a/synapse.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d058e6d6-5fbc-415d-bdba-f2687dd81a2a/synapse.png" width="40px" /> ****Ecosystem
-製品を蓄積・活用する****
+製品を蓄積・活用する
 
 
 ソフトウエア製品の活用により生じる問題（バグ、脆弱性、依存関係など）の解決などに取り組みます。
 具体的にはライブラリの再利用に関する分析や、説明書（README）の記述に関する研究を行っています。
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f04d634-95b1-4a68-b201-69fe70c227c3/communication.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f04d634-95b1-4a68-b201-69fe70c227c3/communication.png" width="40px" /> 
 Community
 共同作業を促進する
 
